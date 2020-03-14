@@ -1,0 +1,40 @@
+body {
+    background: black;
+}
+.mainHearts{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    margin-top: 150px;
+    border: red 5px solid;
+    font-family: 'Indie Flower', cursive;
+}
+h1 {
+    margin-top: 100px;
+    text-align: center;
+}
+.heart {
+    background: url("heart.png") no-repeat;
+    background-size: contain;
+    
+    width: 200px;
+    height: 300px;
+}
+button {
+    display: flex;
+    background-color: white;
+    color: black;
+   border-radius: 10px;
+   border: 2px solid black;
+   transition-duration: 4s;
+   margin-bottom: 50px;
+}
+button:hover {
+    background-color: red;
+    color: white;
+}
+
