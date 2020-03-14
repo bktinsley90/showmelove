@@ -1,5 +1,7 @@
 body {
-    background: black;
+    background: url("pinkhearts.jpg")no-repeat;
+    height: 150px;
+    background-size: cover;
 }
 .mainHearts{
     background: #fff;
@@ -10,7 +12,7 @@ body {
     height: 500px;
     margin: auto;
     margin-top: 150px;
-    border: red 5px solid;
+    border: black 5px solid;
     font-family: 'Indie Flower', cursive;
 }
 h1 {
@@ -34,7 +36,7 @@ button {
    margin-bottom: 50px;
 }
 button:hover {
-    background-color: red;
+    background-color:pink;
     color: white;
 }
 
